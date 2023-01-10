@@ -1,3 +1,4 @@
+const screen = document.querySelector("html");
 const basketImg = document.querySelector(".basket-starter");
 const basketContent = basketImg.querySelector(".basket");
 
@@ -12,7 +13,7 @@ basketImg.addEventListener("click", e => {
 basketContent.addEventListener("click", e => {
   e.stopPropagation();
 });
-window.addEventListener("click", e => {
+screen.addEventListener("click", e => {
   hideBasket();
 });
 
