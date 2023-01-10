@@ -14,7 +14,6 @@ basketContent.addEventListener("click", e => {
   e.stopPropagation();
 });
 screen.addEventListener("click", e => {
-  alert('here');
   hideBasket();
 });
 

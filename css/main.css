@@ -49,6 +49,12 @@ header ul.menu {
   display:flex;
   justify-content:space-between;
 }
+@media screen and (max-width:420px) {
+  header {
+    overflow-x:auto;
+  }
+}
+
 header ul.menu > li {
   display:flex;
   position:relative;
