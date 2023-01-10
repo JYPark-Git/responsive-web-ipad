@@ -51,7 +51,7 @@ header ul.menu {
 }
 @media screen and (max-width:420px) {
   header {
-    overflow-x:auto;
+    width:750px;
   }
 }
 
