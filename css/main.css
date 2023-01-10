@@ -21,14 +21,19 @@ blockquote:before, blockquote:after,q:before, q:after {content: "";content: none
 table {border-collapse: collapse;border-spacing: 0;}
 
 /* Common */
-a{
-  text-decoration:none;
+html{
+  max-height:100vh;
+  height:100vh;
+  box-sizing:border-box;
+  overflow: overlay;
 }
 body {
   font-family:"Roboto", "Noto Sans KR", sans-serif;
   font-size:16px;
   word-break:keep-all;
-  min-height:100vh;
+}
+a{
+  text-decoration:none;
 }
 
 /* Header */
