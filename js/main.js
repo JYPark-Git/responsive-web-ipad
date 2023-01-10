@@ -14,6 +14,7 @@ basketContent.addEventListener("click", e => {
 });
 window.addEventListener("click", e => {
   hideBasket();
+  alert(1);
 });
 
 
